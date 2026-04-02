@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: #3D3430;
+  list-style: none;
+  text-decoration: none;
+}
+.container{
+  width: 1320px;
+  margin: 0 auto;
+}
+.btn{
+  color: #fff;
+  font-size: 18px;
+  padding: 14px 28px;
+  background-color: #7258F7;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: .4s;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: transparent;
+  border: 2px solid #7258F7;
+  color: #000;
+}
+h2{
+  font-size: 56px;
+  font-weight: 700;
+}
+p{
+  font-size: 18px;
+  font-weight: 400;
+}
+/* Navabr part start */
+.navbar{
+  background-color: #DBD5FB;
+  padding: 20px 0;
+}
+.nav-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-ul{
+  display: flex;
+  gap: 60px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+/* Navbar part end */
+
+
+
+/* Banner part start */
+.banner{
+  padding: 100px 0;
+}
+.banner-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content{
+  width: 48%;
+}
+.banner h1{
+  font-size: 64px;
+}
+.banner p{
+  padding-top: 30px;
+  width: 65%;
+  line-height: 140%;
+  font-size: 20px;
+}
+.banner-btn{
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.banner-img{
+  width: 48%;
+}
+.banner-img img{
+  width: 100%;
+}
+/* Banner part end */
+
+
+/* Sales part start */
+.sales{
+  padding: 70px 0;
+  background-color: #FCF8F8;
+}
+.sales h2{
+  width: 50%;
+}
+.sales-card{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+  padding: 20px;
+  box-shadow: 2px -2px 4px #000;
+}
+/* Sales part end */
