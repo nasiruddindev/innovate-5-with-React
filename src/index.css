@@ -99,13 +99,15 @@ p{
 .sales-card{
   margin-top: 50px;
   display: grid;
-  gap: 20px;
+  gap: 30px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .card{
   padding: 20px;
   border-radius: 10px;
   box-shadow: 2px 2px 4px #000;
+  transition: .4s;
+  cursor: pointer;
 }
 .card h4{
   padding-top: 28px;
@@ -113,4 +115,124 @@ p{
   font-size: 30px;
   font-weight: 700;
 }
+
+.card:hover{
+  background-color: #7258F7;
+  color: #fff;
+  scale: calc(1.1);
+}
 /* Sales part end */
+
+
+/* Work part start */
+.work{
+  padding: 100px 0;
+}
+.work-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.work-img{
+  margin: 0 auto;
+  width: 70%;
+  height: 580px;
+  border-radius: 15px;
+  background-color: #C4C4C4;
+}
+.work-pera{
+  width: 50%;
+}
+.animation-box{
+  width: 80%;
+  margin-top: 20px;
+}
+.aniTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+.aniTitle .button1{
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+}
+.aniTitle .button2{
+  border: none;
+  background-color: transparent;
+  display: none;
+}
+ .animation{
+  padding-top: 10px;
+  width: 80%;
+  /* display: none; */
+}
+/* Work part end */
+
+/* Focus part start */
+.focus{
+  padding: 100px 0;
+  background-color: #FEF8E4;
+}
+.focus-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.focus-box3{
+  width: 100%;
+  justify-self: end;
+  height: 350px;
+  background-color: #C4C4C4;
+}
+.focus-box1{
+  width: 80%;
+  justify-self: end;
+  height: 350px;
+  background-color: #C4C4C4;
+}
+.focus-box2{
+  width: 90%;
+  justify-self: start;
+  height: 350px;
+  background-color: #C4C4C4;
+}
+.focus-card{
+  padding: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.focus-card2{
+  width: 73%;
+  padding: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  justify-self: end;
+}
+.focus-card2 h4{
+  padding-top: 28px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.focus-card2 p{
+  width: 65%;
+  line-height: 140%;
+}
+.focus-card h4{
+  padding-top: 28px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.focus-card p{
+  width: 60%;
+  line-height: 140%;
+}
+
+/* Focus part end */

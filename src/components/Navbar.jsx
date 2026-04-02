@@ -6,7 +6,7 @@ import Logo from '../assets/logo.png'
 const Navbar = () => {
   return (
     <>
-      <div className="navbar">
+      <div className="navbar" id='home'>
         <div className="container">
           <div className="nav-main">
             <div className="img">
@@ -14,9 +14,9 @@ const Navbar = () => {
             </div>
             <div className="list">
               <ul className="nav-ul">
-                <Listitem list="Home" />
-                <Listitem list="About" />
-                <Listitem list="Service" />
+                <Listitem list="Home" tag="home"/>
+                <Listitem list="About" tag="about"/>
+                <Listitem list="Service" tag="sales"/>
                 <Listitem list="Portfolio" />
                 <Listitem list="Price" />
                 <Listitem list="Blog" />

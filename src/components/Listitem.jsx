@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Listitem = ({list}) => {
+const Listitem = ({list,tag}) => {
   return (
     <>
-    <li>{list}</li>
+    {
+     tag==="sales" ?<li><a href="#sales">{list}</a></li>:<li>{list}</li>
+    }
     </>
   )
 }

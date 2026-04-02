@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Pera = ({peratext}) => {
+const Pera = ({peratext,type}) => {
   return (
     <>
-    <p>{peratext}</p>
+    {
+      type?<p className='work-pera'>{peratext}</p>:<p>{peratext}</p>
+    }
     </>
   )
 }
