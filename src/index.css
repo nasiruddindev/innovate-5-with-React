@@ -236,3 +236,57 @@ p{
 }
 
 /* Focus part end */
+
+
+
+/* Selected part start */
+.select{
+  padding: 100px 0;
+}
+.select-main{
+  position: relative;
+}
+.select-content p{
+  width: 280px;
+}
+.position{
+  display: flex;
+  margin-top: 50px;
+}
+.select1{
+  width: 31%;
+  height: 500px;
+  background-color: #C4C4C4;
+  position: absolute;
+  position: relative;
+}
+.position-content{
+  width: 60%;
+  padding: 20px ;
+  border-radius: 10px;
+  background-color: #E2DDFB;
+  position: absolute;
+  top: 85%;
+  right: 0;
+}
+.position-content h4{
+  font-size: 24px;
+}
+
+.select2{
+  width: 31%;
+  height: 450px;
+  background-color: #C4C4C4;
+  position: absolute;
+  left: 450px;
+  top: 150px;
+}
+.select3{
+  width: 31%;
+  height: 550px;
+  background-color: #C4C4C4;
+  position: absolute;
+  top:0px;
+  left: 900px;
+}
+/* Selected part end */
