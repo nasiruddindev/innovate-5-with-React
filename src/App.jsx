@@ -5,6 +5,7 @@ import Sales from './components/Sales'
 import Work from './components/Work'
 import Focus from './components/Focus'
 import Select from './components/Select'
+import About from './components/About'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
     <Work/>
     <Focus/>
     <Select/>
+    <About/>
     </>
   )
 }

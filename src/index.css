@@ -254,6 +254,7 @@ p{
   margin-top: 50px;
 }
 .select1{
+  border-radius: 10px;
   width: 31%;
   height: 500px;
   background-color: #C4C4C4;
@@ -280,6 +281,7 @@ p{
   position: absolute;
   left: 450px;
   top: 150px;
+  border-radius: 10px;
 }
 .select3{
   width: 31%;
@@ -288,5 +290,38 @@ p{
   position: absolute;
   top:0px;
   left: 900px;
+  border-radius: 10px;
 }
 /* Selected part end */
+
+
+/* About part start */
+.about{
+  padding: 100px 0;
+  background-color: #FCF8F8;
+}
+.about-card{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.about-card-design{
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+}
+.about-card-design h4{
+  font-size: 30px;
+  font-weight: 700;
+}
+.about-card-img{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+/* About part end */
