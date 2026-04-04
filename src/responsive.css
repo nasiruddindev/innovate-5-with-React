@@ -1,0 +1,45 @@
+@media (max-width: 320px) {
+  .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  /* Navbar part start */
+  .navbar {
+    padding: 10px 0;
+  }
+  .nav-main {
+    display: block;
+  }
+  .nav-ul {
+    display: block;
+  }
+  /* Navbar part end */
+
+  /* Banner part start */
+  .banner {
+    padding: 70px 0;
+  }
+  .banner-main {
+    display: block;
+  }
+  .banner h1 {
+    font-size: 46px;
+    width: 100%;
+    text-align: center;
+  }
+  .banner p {
+    width: 50%;
+    text-align: center;
+  }
+  /* Banner part end */
+}

@@ -6,6 +6,7 @@ import Work from './components/Work'
 import Focus from './components/Focus'
 import Select from './components/Select'
 import About from './components/About'
+import Fotter from './components/Fotter'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
     <Focus/>
     <Select/>
     <About/>
+    <Fotter/>
     </>
   )
 }

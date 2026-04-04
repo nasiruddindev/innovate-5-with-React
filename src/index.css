@@ -28,6 +28,10 @@ h2{
   font-size: 56px;
   font-weight: 700;
 }
+h4{
+  font-size: 26px;
+  font-weight: 700;
+}
 p{
   font-size: 18px;
   font-weight: 400;
@@ -112,14 +116,18 @@ p{
 .card h4{
   padding-top: 28px;
   padding-bottom: 5px;
-  font-size: 30px;
-  font-weight: 700;
 }
 
-.card:hover{
+.card:hover {
   background-color: #7258F7;
   color: #fff;
   scale: calc(1.1);
+}
+.card:hover h4{
+  color: #fff;
+}
+.card:hover p{
+  color: #fff;
 }
 /* Sales part end */
 
@@ -217,8 +225,6 @@ p{
 .focus-card2 h4{
   padding-top: 28px;
   padding-bottom: 10px;
-  font-size: 24px;
-  font-weight: 700;
 }
 .focus-card2 p{
   width: 65%;
@@ -227,8 +233,6 @@ p{
 .focus-card h4{
   padding-top: 28px;
   padding-bottom: 10px;
-  font-size: 24px;
-  font-weight: 700;
 }
 .focus-card p{
   width: 60%;
@@ -270,9 +274,7 @@ p{
   top: 85%;
   right: 0;
 }
-.position-content h4{
-  font-size: 24px;
-}
+
 
 .select2{
   width: 31%;
@@ -314,10 +316,6 @@ p{
   border-radius: 10px;
   box-shadow: 2px 2px 4px #000;
 }
-.about-card-design h4{
-  font-size: 30px;
-  font-weight: 700;
-}
 .about-card-img{
   display: flex;
   align-items: center;
@@ -325,3 +323,28 @@ p{
   margin-bottom: 20px;
 }
 /* About part end */
+
+
+/* Fotter part start */
+.fotter{
+  padding: 100px 0;
+  background-color: #19153D;
+}
+
+.fotter-content{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.fotter img{
+  margin-bottom: 30px;
+}
+.fotter h4{
+  padding-bottom: 20px;
+  color: #FEFEFE;
+}
+.fotter p{
+  color: #FEFEFE;
+  padding-bottom: 10px;
+}
+/* Fotter part end */
